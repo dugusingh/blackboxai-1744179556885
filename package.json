@@ -1,0 +1,22 @@
+{
+  "name": "smartfarm",
+  "version": "1.0.0",
+  "description": "Agriculture advisory system for farmers",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "npm run build:watch & nodemon server/server.js",
+    "build": "echo 'No build needed when using CDN'",
+    "build:watch": "echo 'No build needed when using CDN'"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.3"
+  }
+}
